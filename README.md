@@ -36,7 +36,5 @@ Finally, to inform me about any changes that you have made, go to my original re
 
 Let's test this soon.
 
-## References
-
 [1]: https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git
 [2]: https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
