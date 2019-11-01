@@ -17,7 +17,13 @@ Now, every time you open your local copy to work, you want to make sure that you
 git pull upstream master
 git push origin master
 ```
-Here, `upstream` refers to my original repository, whereas `origin` refers to your copy. You are pulling from my `master` branch and pushing to your own `master` branch. Assuming that we have a file called `hello-world.py`, and we have separately made so many changes that there are conflicts during syncing, run [`git mergetool`](https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git) to see the differences between our versions of this file. (Another option would be: [`git diff --word-diff`](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).) If you decide to use your own changes, run `git checkout --ours hello-world.py`. Otherwise, run `git checkout --theirs hello-world.py`. Then, run the following:
+Here, `upstream` refers to my original repository, whereas `origin` refers to your copy. You are pulling from my `master` branch and pushing to your own `master` branch.
+
+<p align="center">
+  <img src="https://images.osteele.com/2008/git-transport.png">
+</p>
+
+Assuming that we have a file called `hello-world.py`, and we have separately made so many changes that there are conflicts during syncing, run [`git mergetool`](https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git) to see the differences between our versions of this file. (Another option would be: [`git diff --word-diff`](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).) If you decide to use your own changes, run `git checkout --ours hello-world.py`. Otherwise, run `git checkout --theirs hello-world.py`. Then, run the following:
 ```
 git add hello-world.py
 git commit -m "[Replace this custom message with your own.]"
