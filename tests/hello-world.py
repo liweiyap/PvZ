@@ -7,7 +7,7 @@ Created on Sun Nov  3 12:28:37 2019
 """
 
 def main():
-    print("Hello world")
+    print("Hello mannieeeeeee")
 
 # -------------------------------------- #
 
