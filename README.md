@@ -14,6 +14,7 @@ If you run `git branch` again, you should see that you are now on the developmen
 
 Now, every time you open your local copy to work, you want to make sure that your local copy is synced with mine. To do so, run:
 ```
+git checkout master
 git pull upstream master
 git push origin master
 ```
