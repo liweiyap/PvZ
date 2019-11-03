@@ -1,3 +1,3 @@
-def addition(A,B):
-    C = A+B
-    return C
+def addition(X,Y):
+    Z = X+Y
+    return Z
